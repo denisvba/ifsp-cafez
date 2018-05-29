@@ -1,0 +1,69 @@
+<body class="preload">
+		<div class="loading">
+			<div id="coffeeWrapper">
+				<span class="left"></span>
+				<span class="middle"></span>
+				<span class="right"></span>
+				<img src="/img/coffee-loading.svg" alt="Loading" id="coffee"/>
+			</div>
+		</div>
+		<div class="flowers-topleft"></div>
+		<div class="flowers-topright"></div>
+		<div class="flowers-bottomright"></div>
+		<div class="flowers-bottomleft"></div>
+		<header>
+			<img src="/img/logo.svg" alt="Café Frida" class="logo"/>
+		</header>
+
+		<button class="btn-menu">
+			<span></span>
+		</button>
+		<div id="menu-overlay">
+			<nav class="text-center">
+				<ul class="list-unstyled">
+					<li><button class="btnCloseMenu"><span></span></button></li>
+					<li><a href="#la-formule" class="link-formule link-scroll">La formule</a></li>
+					<li><a href="#menu" class="link-menu link-scroll">Menu</a></li>
+					<li><a href="#idee" class="link-idee link-scroll">L'idée</a></li>
+					<li><a href="#contact" class="link-contact link-scroll">Contact</a></li>
+					<li><a href="https://www.facebook.com/Lecafefrida" class="" target="_blank"><span class="facebook"></span></a></li>
+				</ul>
+			</nav>
+		</div>
+	<section id="la-formule">
+		<h2>La formule</h2>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 col-xs-8 mobile-fullwidth">
+					<h1>Café <br>Frida <span>c’est...</span></h1>
+					<div class="text padding-left">
+					
+ <!-------------------------description-->
+
+					</div>
+					<img src="/img/toast-gif-480.gif" alt="Toast" class="hidden-md hidden-lg img-toast"/>
+				</div>
+			</div>
+		</div>
+		<div class="col-right hidden-xs hidden-sm">
+			<div class="bg-gif"></div>
+		</div>
+	</section>
+	<div style="background-image:url(/img/ambiance-6.jpg);" class="fullscreen hidden-sm hidden-xs background parallax bg-ambiance hidden-mobile spacer-img-1" data-img-width="2000" data-img-height="1000" data-diff="200"></div>
+	<section id="menu">
+	
+				</nav>
+			</div>
+		</div>
+		<div class="overflow-hidden">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<h2>Menu</h2>
+					</div>
+					<div class="col-md-4 col-xs-8 mobile-fullwidth">
+						<div class="text-menu">
+							<p>Noss menu possuem desde o tradicional café brasileiro até mesmo um refrescante frapuccino, e uma variedade de Snacks para acompanhar.</p>
+						</div>
+					</div>
+				</div>
