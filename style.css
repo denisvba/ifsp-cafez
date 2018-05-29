@@ -6,7 +6,9 @@ table, th, td {
     border: 1px solid green;
     border-collapse: collapse;
 }
-
+nav {
+    float: right;
+}
 ul {
     list-style-type: none;
     margin: 0;
