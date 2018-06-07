@@ -2,17 +2,18 @@
 
 
 @font-face {
-	font-family: 'Lovers Quarrel', cursive;
-	src: url("https://fonts.googleapis.com/css?family=Lovers+Quarrel");
+	font-family: font-family: 'Great Vibes', cursive;
+	src: url("https://fonts.googleapis.com/css?family=Great+Vibes");
 }
 
 body {
-	background-color: #7C3626;
+	background-color: #EDADC7;
 }
 
 p {
 
-	font-family: Candara, Arial, Helvetica, sans-serif;
+	font-family: font-family: 'Raleway', sans-serif;
+, Arial, Helvetica, sans-serif;
 	color: #130303 ;
 	font-size: 15px;
 
@@ -20,34 +21,34 @@ p {
 
 h1 {
 
-	font-family: 'Lovers Quarrel', cursive;
+	font-family: 'Great Vibes', cursive;
 	font-size: 45px;
-	color: #EDADC7;
+	color: #7C3626;
 }
 
 h2 {
-	font-family: Candara, Arial, Helvetica, sans-serif;
+	font-family:'Raleway', sans-serif, Arial, Helvetica, sans-serif;
 	font-size: 30px;
 	color: #EDADC7;
 
 }
 
 h3 {
- 	font-family: Candara, Arial, Helvetica, sans-serif;
+    font-family: 'Raleway', sans-serif, Arial, Helvetica;
 	font-size: 30px;
-	color: #EDADC7;
+	color: #7C3626;
 
 }
 
 li {
 
-	font-family: Candara, Arial, Helvetica, sans-serif;
+	font-family: 'Raleway', sans-serif, Arial, Helvetica, sans-serif;
 	font-size: 15px;
-	color: #2D080A;
+	color: #7C3626;
 }
 
 a {
-	font-family: Candara, Arial, Helvetica, sans-serif;
+	font-family:'Raleway', sans-serif, Arial, Helvetica, sans-serif;
 	font-size: 15px;
 	color: #8E7C93;
 }
@@ -62,14 +63,16 @@ background-repeat:no-repeat;*/
 
 }
 
+
 /*style.css*/
 body {
-    margin: 0;
+    margin: auto;
 }
 
 table, th, td {
     border: 1px solid 7C3626;
-    border-collapse: collapse;
+	border-collapse: collapse;
+	margin: auto;
 }
 
 ul {
@@ -110,5 +113,6 @@ li:last-child {
     padding:20px;
     /* margin-top:30px; */
     /* background-color:#1abc9c; */
-    height:1500px;
+	height:1500px;
+	margin: auto;
 }
