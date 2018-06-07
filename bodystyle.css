@@ -66,10 +66,11 @@ body {
 
 table, th, td {
     border: 1px solid green;
-    border-collapse: collapse;
+	border-collapse: collapse;
+	margin: auto;
 }
 
-.menu header ul {
+  header ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -78,15 +79,15 @@ table, th, td {
     background-color: #f3f3f3;
 }
 
-.menu header nav {
+  header nav {
 	float: right;
 }
 
-.menu header li {
+  header li {
     float: left;
 }
 
-.menu header li a {
+  header li a {
     display: block;
     color: #666;
     text-align: center;
@@ -94,20 +95,20 @@ table, th, td {
     text-decoration: none;
 }
 
-.menu header li a:hover:not(.active) {
+  header li a:hover:not(.active) {
     background-color: #ddd;
 }
 
-.menu header li a.active {
+  header li a.active {
     color: white;
     background-color: #4CAF50;
 }
 
-.menu header li:last-child {
+  header li:last-child {
     border-right: none;
 }
 
-.menu .default {
+  .default {
     padding:20px;
     /* margin-top:30px; */
     /* background-color:#1abc9c; */
