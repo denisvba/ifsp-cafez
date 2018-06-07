@@ -34,7 +34,7 @@
 
 
 		//Query que realiza a inserção dos dados no banco de dados na tabela indicada acima
-		$query = "INSERT INTO `clientes` ( `nome` , `email` , `sexo` , `ddd` , `telefone` , `endereço` , `cidade` , `estado` , `bairro` , `país` , `login` , `senha` , `news` , `id` ) 
+		$query = "INSERT INTO `clientes` ( `nome` , `email` , `sexo` , `ddd` , `telefone` , `endereco` , `cidade` , `estado` , `bairro` , `pais` , `login` , `senha` , `news` , `id` ) 
 		VALUES ('$nome', '$email', '$sexo', '$ddd', '$tel', '$endereco', '$cidade', '$estado', '$bairro', '$pais', '$login', '$senha', '$news', '')";
 		mysql_query($query,$conexao);
 		########## • Explicação da query • ##########
@@ -61,6 +61,7 @@
 		#São apenas as variaveis a qual eu#
 		#atribui os valores digitados no formulário.#
 		#############################################
+		echo mysql_error();
 		echo "Seu cadastro foi realizado com sucesso!Agradecemos a atenção.";
 		//mensagem que é escrita quando os dados são inseridos normalmente.
 	?> 
