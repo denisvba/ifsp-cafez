@@ -54,9 +54,11 @@ a {
 	background-image: url("http://i68.tinypic.com/o0qja0.png"); 
 	background-repeat:no-repeat;
 }
-.mapa iframe{
-
-}
+/* .mapa iframe{
+	width: "800";
+	height: "600";
+	border:"0";
+} */
 /*style.css*/
 body {
     margin: 0;
