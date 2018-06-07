@@ -1,69 +1,113 @@
-<body class="preload">
-		<div class="loading">
-			<div id="coffeeWrapper">
-				<span class="left"></span>
-				<span class="middle"></span>
-				<span class="right"></span>
-				<img src="/img/coffee-loading.svg" alt="Loading" id="coffee"/>
-			</div>
-		</div>
-		<div class="flowers-topleft"></div>
-		<div class="flowers-topright"></div>
-		<div class="flowers-bottomright"></div>
-		<div class="flowers-bottomleft"></div>
-		<header>
-			<img src="/img/logo.svg" alt="Café Frida" class="logo"/>
-		</header>
+/* paletas de cores do site: 030505 (rich black), 485665 (azul escuro), 8E7C93 (lavanda), D0A5C0 (lilás), F6C0D0 (orchid pink); */
 
-		<button class="btn-menu">
-			<span></span>
-		</button>
-		<div id="menu-overlay">
-			<nav class="text-center">
-				<ul class="list-unstyled">
-					<li><button class="btnCloseMenu"><span></span></button></li>
-					<li><a href="#la-formule" class="link-formule link-scroll">La formule</a></li>
-					<li><a href="#menu" class="link-menu link-scroll">Menu</a></li>
-					<li><a href="#idee" class="link-idee link-scroll">L'idée</a></li>
-					<li><a href="#contact" class="link-contact link-scroll">Contact</a></li>
-					<li><a href="https://www.facebook.com/Lecafefrida" class="" target="_blank"><span class="facebook"></span></a></li>
-				</ul>
-			</nav>
-		</div>
-	<section id="la-formule">
-		<h2>La formule</h2>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-4 col-xs-8 mobile-fullwidth">
-					<h1>Café <br>Frida <span>c’est...</span></h1>
-					<div class="text padding-left">
-					
- <!-------------------------description-->
 
-					</div>
-					<img src="/img/toast-gif-480.gif" alt="Toast" class="hidden-md hidden-lg img-toast"/>
-				</div>
-			</div>
-		</div>
-		<div class="col-right hidden-xs hidden-sm">
-			<div class="bg-gif"></div>
-		</div>
-	</section>
-	<div style="background-image:url(/img/ambiance-6.jpg);" class="fullscreen hidden-sm hidden-xs background parallax bg-ambiance hidden-mobile spacer-img-1" data-img-width="2000" data-img-height="1000" data-diff="200"></div>
-	<section id="menu">
-	
-				</nav>
-			</div>
-		</div>
-		<div class="overflow-hidden">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12">
-						<h2>Menu</h2>
-					</div>
-					<div class="col-md-4 col-xs-8 mobile-fullwidth">
-						<div class="text-menu">
-							<p>Noss menu possuem desde o tradicional café brasileiro até mesmo um refrescante frapuccino, e uma variedade de Snacks para acompanhar.</p>
-						</div>
-					</div>
-				</div>
+@font-face {
+	font-family: "lavanderia-regular";
+	src: local("lavanderia-regular"), url("https://drive.google.com/file/d/1aUTZQvxbHuRDJwuAaGkT72r8EUn7N-2P/view?usp=sharing");
+}
+
+body {
+	background-color: #E6DBD0;
+}
+
+p {
+	font-family: Candara, Arial, Helvetica, sans-serif;
+	color: #8E7C93 ;
+	font-size: 15px;
+}
+
+h1 {
+	font-family:"Lavanderia";
+	font-size: 45px;
+	color: #7D6167;
+}
+
+h2 {
+	font-family: Candara, Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	color: #C37D92;
+}
+
+h3 {
+ 	font-family: Candara, Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	color: #8E7C93;
+}
+
+li {
+
+	font-family: Candara, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #8E7C93;
+}
+
+a {
+	font-family: Candara, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #8E7C93;
+}
+
+.banner div{
+	display: block;
+	width:240px;
+	height:400px;
+	background-image: url("http://i68.tinypic.com/o0qja0.png"); 
+	background-repeat:no-repeat;
+}
+.mapa iframe{
+
+}
+/*style.css*/
+body {
+    margin: 0;
+}
+
+table, th, td {
+    border: 1px solid green;
+    border-collapse: collapse;
+}
+
+.menu header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+.menu header nav {
+	float: right;
+}
+
+.menu header li {
+    float: left;
+}
+
+.menu header li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu header li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+.menu header li a.active {
+    color: white;
+    background-color: #4CAF50;
+}
+
+.menu header li:last-child {
+    border-right: none;
+}
+
+.menu .default {
+    padding:20px;
+    /* margin-top:30px; */
+    /* background-color:#1abc9c; */
+    height:1500px;
+}

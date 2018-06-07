@@ -1,6 +1,8 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<!-- <link rel="stylesheet" type="text/css" media="screen" href="style.css" /> -->
+		<link rel="stylesheet" type="text/css" media="screen" href="bodystyle.css" />
 		<title>Cadastro realizado com sucesso!</title>
 	</head>
 	<body>
